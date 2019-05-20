@@ -40,11 +40,12 @@ function crearArchivo() {
 //Metodo que ejecuta el programa segun la histroria de usuario indicada
 function inicializar() {
 	if(argv.curso == null || argv.nombre == null || argv.cedula == null) {
-	mostrarCursos(2000, 4000, 6000);
+		mostrarCursos(2000, 4000, 6000);
 	}
 	else {
 		if(cursoBuscado(argv.curso) == null) {
 			console.log('El curso con el id [' + argv.curso + '] no existe.');
+			mostrarCursos(2000, 4000, 6000);
 		} else{
 			console.log(cursoBuscado(argv.curso));
 			setTimeout(function () {
