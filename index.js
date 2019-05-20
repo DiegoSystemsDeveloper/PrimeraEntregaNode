@@ -54,3 +54,5 @@ function inicializar() {
 		}
 	}	
 }
+
+inicializar();
