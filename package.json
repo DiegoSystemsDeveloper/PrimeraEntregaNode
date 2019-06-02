@@ -9,6 +9,7 @@
   "author": "Diego Leandro Perez Tapias  hhola3628@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "yargs": "^13.2.4"
   }
 }
